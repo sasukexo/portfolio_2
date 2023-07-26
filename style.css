@@ -110,5 +110,11 @@ nav ul li a:hover:after {
 
 .about{
   line-height: normal;
-  margin-left: ;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1f1f25;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 55%;
+
 }
