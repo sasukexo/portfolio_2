@@ -120,11 +120,14 @@ nav ul li a:hover:after {
 }
 .about_name{
   margin-bottom: var(--mb-2);
+  flex-basis: 35%;
  
 }
 
 .about_edu{
   margin: 30px 40px 50px 20px;
+  
+  flex-basis: 60%;
 
 }
 .section{
@@ -137,4 +140,8 @@ nav ul li a:hover:after {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+}
+#about{
+  padding: 100px 0;
+  color: #ababab;
 }
