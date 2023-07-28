@@ -118,3 +118,23 @@ nav ul li a:hover:after {
   width: 55%;
 
 }
+.about_name{
+  margin-bottom: var(--mb-2);
+ 
+}
+
+.about_edu{
+  margin: 30px 40px 50px 20px;
+
+}
+.section{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.nav{
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: var(--font-semi);
+}
