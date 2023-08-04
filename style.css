@@ -145,3 +145,27 @@ nav ul li a:hover:after {
   padding: 100px 0;
   color: #ababab;
 }
+
+.social-img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s;
+  display:inline-flex;   
+  margin: 0 10px;
+  margin-left: 400px; 
+}
+
+.social-img:hover {
+  transform: scale(1.2);
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding:10px 0 10px 0;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size:1rem;
+  padding: 20px 0px;
+  font-family: 'Caveat', cursive;
+  text-transform: uppercase;
+}
