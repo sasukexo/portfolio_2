@@ -108,14 +108,17 @@ nav ul li a:hover:after {
   margin-bottom: 30px;
 }
 
-.about{
+.about-section{
   line-height: normal;
   font-size: 20px;
   font-weight: 400;
   color: #1f1f25;
+
+  margin-top: 25px;
   margin-bottom: 30px;
-  margin-top: 30px;
-  width: 55%;
+  margin-left: 50px;
+
+
 
 }
 .about_name{
@@ -141,9 +144,14 @@ nav ul li a:hover:after {
   align-items: center;
   font-weight: var(--font-semi);
 }
-#about{
-  padding: 100px 0;
-  color: #ababab;
+.nav_logo{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 50px;
+  font-family: 'Caveat', cursive;
 }
 
 .social-img {
@@ -165,7 +173,17 @@ nav ul li a:hover:after {
 .copyright{
   color: #eaf6f6;
   font-size:1rem;
-  padding: 20px 0px;
+  margin-left:850px;
   font-family: 'Caveat', cursive;
   text-transform: uppercase;
+}
+.section-title1{
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: var(--mb-2);
+  color: #1f1f25;
+  font-family: 'Caveat', cursive;
+
 }
