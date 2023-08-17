@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/google.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import editor from "../../Assets/Projects/todo.png";
+import chatify from "../../Assets/Projects/qr.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -71,7 +71,7 @@ function Projects() {
               title="Google search clone"
               description="Built a replica of Google Search Engine which can send query requests to Google servers. The web application can do Normal search, Image search and Advanced search"
               ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://sasukexo.github.io/cs50/"
             />
           </Col>
 
