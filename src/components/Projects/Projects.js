@@ -28,7 +28,7 @@ function Projects() {
               title="Accident classification model"
               description="During my Intern at L&T IDPL, I built various Classification Models on the real time data provided by the Company"
               ghLink="https://github.com/sasukexo/intern"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              
             />
           </Col>
           <Col md={4} className="project-card">
