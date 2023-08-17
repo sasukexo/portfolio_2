@@ -71,7 +71,7 @@ function Projects() {
               title="Google search clone"
               description="Built a replica of Google Search Engine which can send query requests to Google servers. The web application can do Normal search, Image search and Advanced search"
               ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://sasukexo.github.io/cs50/"
             />
           </Col>
 
