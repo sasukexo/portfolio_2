@@ -6,7 +6,7 @@ import leaf from "../../Assets/Projects/google.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/todo.png";
 import chatify from "../../Assets/Projects/qr.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import suicide from "../../Assets/Projects/coding.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -39,6 +39,17 @@ function Projects() {
               description="The QR code generator is a website constructed using HTML, CSS, and JavaScript. It enables the transformation of various values such as URLs, names, and more into QR codes. Additionally, users have the ability to modify the QR code's color and padding settings."
               ghLink="https://github.com/sasukexo/qr-generator"
               demoLink="https://qr.sasuke.me/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="The Coding Society Website"
+              description="I have been actively involved in enhancing the coding society's website by including various events, incorporating registration forms, and uploading event photos to the platform."
+              ghLink="https://github.com/thecoding-society/website"
+             demoLink="https://www.coding.psdc.org.in" 
             />
           </Col>
 
@@ -75,16 +86,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description=""
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
